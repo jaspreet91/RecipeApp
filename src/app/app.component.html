@@ -1,20 +1,45 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Image and text -->
+<div>
+<nav class="navbar navbar-light bg-light">
+  <div >
+    <div class="ui menu">
+      <div class="header item">
+        <i class="utensils icon" ></i>
+      </div>
+      <a class="item" href="#">
+        About Us
+      </a>
+      <a class="item" href="#">
+        Recipes
+      </a>
+      
+        <div class="ui simple dropdown item">
+          Dropdown
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item"><a href="##">Choice 1</a></div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+          </div>
+        </div>
+    
+     
+      
+      <a class="items" style="margin-left:370px;padding-top: 5px;padding-right: 560px;font: 2em sans-serif;color: brown">
+        {{title}}
+      </a>
+    </div>
+  </div>
+</nav>
 
+
+<hr>
+  <div>
+     <app-recipes></app-recipes>
+  </div>
+<p></p>
+  <div>
+     <app-shopping-list></app-shopping-list>
+</div>  
+</div>
